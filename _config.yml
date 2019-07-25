@@ -2,7 +2,7 @@ title: interworksmedia man page
 email: solution-dev@iwmedia.co.kr
 description: "interworksmedia man page"
 url: "https://interworksmedia.github.io/manual"
-baseurl: "/man"
+baseurl: "/manual"
 repository: "interworksmedia/manual"
 
 markdown: kramdown
