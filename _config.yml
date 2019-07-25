@@ -1,0 +1,29 @@
+title: interworksmedia man page
+email: solution-dev@iwmedia.co.kr
+description: "interworksmedia man page"
+url: "https://interworksmedia.github.io/manual"
+baseurl: "/man"
+repository: "interworksmedia/manual"
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+plugins:
+  - jekyll-feed
+
+sass:
+  style: compressed
+
+timezone: Asia/Seoul
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
